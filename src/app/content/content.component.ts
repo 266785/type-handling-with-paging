@@ -8,6 +8,11 @@ import {Subscription} from 'rxjs';
   templateUrl: './content.component.html',
   styleUrls: ['./content.component.css']
 })
+
+// To run node and angular simultaneously I used proxy configuration
+// ng serve --proxy-config proxy-conf.json
+
+
 export class ContentComponent implements OnDestroy {
   keyPressCount = 0;
 
