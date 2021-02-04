@@ -90,7 +90,7 @@ export class ContentComponent implements OnDestroy {
   }
   // Handles input validation
   isValid(): boolean {
-    return this.params.search && this.params.search.length > 2;
+    return this.params.search.length > 2;
   }
 
   ngOnDestroy(): void {
